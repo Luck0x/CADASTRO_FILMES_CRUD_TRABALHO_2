@@ -149,13 +149,9 @@ function carregarTabela(texto = "") {
         <td>${filme.genero}</td>
 
         <td>
-        ${
-            filme.sinopse
-            ?
-            filme.sinopse
-            :
-            "N/A"
-        }
+            <button onclick="verSinopse(${filme.id})">
+                📖 Ver
+            </button>
         </td>
 
         <td class="acoes">
@@ -237,4 +233,18 @@ function editarFilme(id) {
     salvarFilmes(filmes);
 
     carregarTabela();
+}
+
+function verSinopse(id){
+
+    let filmes = getFilmes();
+
+    let filme = filmes.find(
+        f => f.id === id
+    );
+
+    alert(
+        filme.sinopse || "N/A"
+    );
+
 }

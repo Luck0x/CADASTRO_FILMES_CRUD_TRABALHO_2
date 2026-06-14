@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Filmes</title>
     <link rel="stylesheet" href="style.css">
@@ -11,15 +12,18 @@
     </button>
     <div class="sidebar">
         <h2>🎬Filmes</h2>
-        <a href="index.html">Home</a>
-        <a href="cadastro.html">Cadastrar Filme</a>
-        <a href="filmes.html">Listar Filmes</a>
-        <a href="#" onclick="logout()">Sair</a>
+        <a href="index.html">🏠 - Home</a>
+        <a href="cadastro.html">➕ - Cadastrar Filme</a>
+        <a href="filmes.html">📝 - Listar Filmes</a>
+        <a href="#" onclick="logout()">📤 - Sair</a>
     </div>
     <div class="content">
         <h1>Filmes Cadastrados</h1>
         <a href="cadastro.html">
         <button>Novo Filme</button>
+        <p class="aviso-mobile">
+            Arraste a tabela para o lado para visualizar todas as informações.
+        </p>
         </a>
         <br><br>
         <input
@@ -32,7 +36,7 @@
         <th>Capa</th>
         <th>Título</th>
         <th>Gênero</th>
-        <th>Sinopse</th>
+        <th>Detalhes</th>
         <th>Ações</th>
         </tr>
         </thead>
