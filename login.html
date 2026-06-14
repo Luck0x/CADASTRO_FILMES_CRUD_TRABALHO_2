@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content center">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input
+            type="text"
+            id="loginUsuario"
+            placeholder="Usuário"
+            required>
+            <input
+            type="password"
+            id="loginSenha"
+            placeholder="Senha"
+            required>
+            <button type="submit">
+            Entrar
+            </button>
+        </form>
+        <hr>
+        <h2>Cadastrar Usuário</h2>
+        <form id="cadastroUsuarioForm">
+            <input
+            type="text"
+            id="cadUsuario"
+            placeholder="Usuário"
+            required>
+            <input
+            type="password"
+            id="cadSenha"
+            placeholder="Senha"
+            required>
+            <button type="submit">
+            Cadastrar
+            </button>
+        </form>
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>

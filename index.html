@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>🎬Filmes</h2>
+
+        <a href="index.html">Home</a>
+
+        <div id="menuLogado" style="display:none;">
+            <a href="cadastro.html">Cadastrar Filme</a>
+            <a href="filmes.html">Listar Filmes</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+
+        <div id="menuDeslogado">
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Catálogo de Filmes</h1>
+
+        <p>
+            Sistema CRUD desenvolvido com HTML, CSS, JavaScript e LocalStorage.
+        </p>
+
+        <h2>Funcionalidades</h2>
+
+        <ul>
+            <li>Cadastrar filmes</li>
+            <li>Visualizar filmes</li>
+            <li>Editar filmes</li>
+            <li>Excluir filmes</li>
+            <li>Buscar filmes</li>
+            <li>Login de usuário</li>
+        </ul>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
