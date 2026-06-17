@@ -90,6 +90,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 salvarFilmes(filmes);
 
+                    alert("Filme cadastrado com sucesso!");
+
                 window.location.href =
                 "filmes.html";
             }
@@ -187,6 +189,8 @@ function excluirFilme(id) {
 
     salvarFilmes(filmes);
 
+        alert("Filme excluído com sucesso!");
+
     carregarTabela();
 }
 
@@ -231,6 +235,8 @@ function editarFilme(id) {
     filme.sinopse = novaSinopse;
 
     salvarFilmes(filmes);
+
+        alert("Filme editado com sucesso!");
 
     carregarTabela();
 }
