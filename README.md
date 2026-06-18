@@ -12,7 +12,7 @@ Este site é uma plataforma simples e direta onde o usuário pode se cadastrar, 
 <li>Painel de Exibição: Uma área limpa e organizada onde todos os filmes cadastrados aparecem juntos.</li>
 </ul>
 
-<h2> Tecnologias/lignuagens utilizadas</h2>
+<h2> Tecnologias/linguagens utilizadas</h2>
 <ul>
 <li>HTML5: Utilizamos para montar toda a estrutura do site, as caixas de texto dos formulários e os botões.</li>
 <li>CSS3: Utilizamos para deixar o visual bonito, moderno, com cores legais e garantir que tudo ficasse alinhado na tela.</li>
